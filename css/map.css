@@ -1,0 +1,7 @@
+.map .map_active {
+    fill: #ffffff;
+}
+
+body {
+    overflow-y: auto;
+}
