@@ -13,7 +13,7 @@
       Myanmar's Regions & States
     </h1> -->
     <div class="flex py-5">
-      <div class="map">
+      <div class="map flex-1">
         <svg
           height="666.6666666666666"
           version="1.1"
@@ -346,13 +346,13 @@
           <defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0)" />
         </svg>
       </div>
-      <div>
+      <div class="flex-1 px-10">
         <h2 class="text-white text-center text-3xl pb-3">
           <span class="text-[#ff0067]">Current Place</span> : <span class="current-place">Yangon</span>
         </h2>
-        <div class="relative overflow-x-auto flex items-center">
+        <div class="max-h-[500px] overflow-y-scroll mt-5">
           <table
-            class="w-full text-sm text-left text-gray-500 dark:text-gray-400 h-[500px] overflow-y-scroll"
+            class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
           >
             <thead
               class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"

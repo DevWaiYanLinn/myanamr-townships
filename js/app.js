@@ -1,8 +1,8 @@
-const paths = document.querySelectorAll("path");
 const data = window.MAP_DATA;
+const paths = document.querySelectorAll("path");
 const townships = document.querySelector(".townships");
 const currentPlace = document.querySelector(".current-place");
-const showTowndhips = (region) => {
+const showTownships = (region) => {
   const regionData = data.find((d) => d.name === region);
   let townshipsList = "";
   regionData.townships.forEach((t, index) => {
@@ -33,17 +33,17 @@ const handleHover = (path) => {
     timeOut = setTimeout(() => {
       document.querySelector(".map_active")?.classList.remove("map_active");
       path.classList.add("map_active");
-      showTowndhips(path.getAttribute("name"));
+      showTownships(path.getAttribute("name"));
     }, 200);
   };
 };
 
-!(function (defultRegion, showTowndhips) {
+!(function (defultRegion, showTownships) {
   document
     .querySelector(`path[name="${defultRegion}"]`)
     .classList.add("map_active");
-  showTowndhips(defultRegion);
-})("Yangon", showTowndhips);
+  showTownships(defultRegion);
+})("Yangon", showTownships);
 
 paths.forEach((path) => {
   path.addEventListener("mouseover", handleHover(path));
