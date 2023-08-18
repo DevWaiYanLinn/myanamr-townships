@@ -555,6 +555,10 @@ video {
   display: none;
 }
 
+.h-\[500px\] {
+  height: 500px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -563,8 +567,16 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.items-center {
+  align-items: center;
+}
+
 .overflow-x-auto {
   overflow-x: auto;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 
 .whitespace-nowrap {
@@ -620,11 +632,6 @@ video {
 
 .text-center {
   text-align: center;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-3xl {
