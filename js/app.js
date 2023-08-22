@@ -18,7 +18,6 @@ const showTownships = (region) => {
         </th>
         <td class="px-6 py-4">${t.township}</td>
         <td class="px-6 py-4">${t.township_mm}</td>
-        <td class="px-6 py-4">${regionData.name}</td>
       </tr>
         `;
     townships.innerHTML = townshipsList;
@@ -45,6 +44,4 @@ const handleHover = (path) => {
   showTownships(defultRegion);
 })("Yangon", showTownships);
 
-paths.forEach((path) => {
-  path.addEventListener("mouseover", handleHover(path));
-});
+paths.forEach((path) => path.addEventListener("mouseover", handleHover(path)));
