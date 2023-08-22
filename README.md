@@ -1,10 +1,11 @@
-# Myanmar City Map Project Documentation
+# Myanmar City Map
+
+![image](https://github.com/DevWaiYanLinn/myanamr-townships/assets/134668458/60026cbf-aa34-427e-b459-29be23064d6e)
+
 
 ## Introduction
 
 The Myanmar City Map project offers an interactive webpage displaying a map of Myanmar. When a user hovers over different regions on the map, a list of cities within that region is dynamically displayed. This enhances user experience by providing quick access to city information based on the region of interest.
-
-**Webpage Link**: [Myanmar City Map Webpage](https://devwaiyanlinn.github.io/myanamr-townships)
 
 ## Usage
 
@@ -19,13 +20,6 @@ The project primarily consists of the following components:
 - **HTML Page**: Contains the structure of the webpage and the SVG map visualization.
 - **JavaScript**: Manages the interactivity of the map and tooltips.
 - **City Data**: JSON files storing city information for different regions.
-
-## How It Works
-
-1. The HTML page integrates the SVG map visualization and provides the canvas for interactivity.
-2. JavaScript is utilized to detect hover events on different regions.
-3. When a user hovers over a region, the script fetches the corresponding city data from the JSON files.
-4. A tooltip is dynamically generated and displayed, showing the region's name and the list of cities.
 
 ## Customization
 
@@ -44,4 +38,4 @@ Contributions to the project are welcome! If you'd like to contribute:
 
 ## Contact
 
-If you have questions or feedback, please feel free to contact us at [Your Email Address].
+If you have questions or feedback, please feel free to contact us at [waiyanlin.lion@outlook.com].
