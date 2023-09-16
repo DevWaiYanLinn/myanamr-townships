@@ -44,4 +44,4 @@ const handleHover = (path) => {
   showTownships(defultRegion);
 })("Yangon", showTownships);
 
-paths.forEach((path) => path.addEventListener("mouseover", handleHover(path)));
+paths.forEach((path) => path.addEventListener("click", handleHover(path)));
